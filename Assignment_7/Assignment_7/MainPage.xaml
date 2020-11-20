@@ -5,13 +5,13 @@
 
 
     <StackLayout>
-            <Frame BackgroundColor="Purple" Padding="24" CornerRadius="0">
-               <Label Text="Facebook" HorizontalTextAlignment="Start" TextColor="LightPink" FontSize="40"/>
+            <Frame BackgroundColor="Blue" Padding="24" CornerRadius="0">
+               <Label Text="Facebook" HorizontalTextAlignment="Start" TextColor="White" FontSize="40"/>
             </Frame>
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="6*" />
-                    <RowDefinition Height="3"/>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
                 
@@ -22,35 +22,35 @@
                     <ColumnDefinition />
                     <ColumnDefinition />
                 </Grid.ColumnDefinitions>
-                <BoxView Color="Purple" />
-                <Button Text="Profile Picture"
+                <BoxView Color="White" />
+                <Button Text="Home"
                         
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
                 <BoxView Grid.Column="1"
-                      Color="Pink" />
+                      Color="White" />
                 <Button Grid.Column="1"
-                    Text="Friends"
+                    Text="Notifications"
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
                 <BoxView Grid.Row="1"
-                      Color="PaleVioletRed" />
+                      Color="White" />
                 <Button Grid.Row="1"
                     Text="Inbox"     
                     HorizontalOptions="Center"
                     VerticalOptions="Center" />
                 <BoxView Grid.Row="1"
                      Grid.Column="1"
-                     Color="Pink" />
+                     Color="White" />
                 <Button Grid.Row="1"
                     Grid.Column="1"
-                    Text="Find Friends"     
+                    Text="Menu"     
                    HorizontalOptions="Center"
                    VerticalOptions="Center" 
                         />
                 <BoxView Grid.Row="2"
                  Grid.ColumnSpan="2"
-                 Color="Red" />
+                 Color="White" />
                 <Button Grid.Row="2"
                     Grid.ColumnSpan="2"
                     Text="Posts"
