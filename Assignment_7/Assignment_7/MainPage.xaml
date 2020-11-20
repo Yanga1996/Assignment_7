@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment_7.MainPage">
+
+
+    <StackLayout>
+            <Frame BackgroundColor="Purple" Padding="24" CornerRadius="0">
+               <Label Text="Facebook" HorizontalTextAlignment="Start" TextColor="LightPink" FontSize="40"/>
+            </Frame>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*" />
+                    <RowDefinition Height="3"/>
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                
+                
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <BoxView Color="Purple" />
+                <Button Text="Profile Picture"
+                        
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+                <BoxView Grid.Column="1"
+                      Color="Pink" />
+                <Button Grid.Column="1"
+                    Text="Friends"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+                <BoxView Grid.Row="1"
+                      Color="PaleVioletRed" />
+                <Button Grid.Row="1"
+                    Text="Inbox"     
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+                <BoxView Grid.Row="1"
+                     Grid.Column="1"
+                     Color="Pink" />
+                <Button Grid.Row="1"
+                    Grid.Column="1"
+                    Text="Find Friends"     
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" 
+                        />
+                <BoxView Grid.Row="2"
+                 Grid.ColumnSpan="2"
+                 Color="Red" />
+                <Button Grid.Row="2"
+                    Grid.ColumnSpan="2"
+                    Text="Posts"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Grid>
+
+       </StackLayout>
+           
+</ContentPage>
